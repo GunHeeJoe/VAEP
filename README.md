@@ -37,8 +37,10 @@ i) Error data preproceing<br/>
 ii) Create additional features<br/>
 iii) Create labels for multi-classification<br/><br/>
 
-<ML_VAEP & DL_VAEP>
-- Modeling & Analysis & Evaluation<br/>
+Modeling & Analysis & Evaluation<br/>
+----------------
+
+<ML_VAEP>
 
 - ML_BinaryClassification : Machine learning to perform binary-classification<br/>
 i) Using the same dataset, CatBoost is used to create a scoring probability model and a concede probability model, respectively<br/>
@@ -53,6 +55,9 @@ vvi) Analysis : 골과 어시스트를 담당한 L. Vazquez와 K. Benzema선수�
 - 골을 기준으로 라벨링을 진행하다 보니, 골로 이어지는 이벤트의 기여도를 평가할 때 이러한 현상이 발생하는 것으로 보입니다.
 ![image](https://github.com/GunHeeJoe/VAEP/assets/112679136/b498d9b2-c257-4747-b4d7-1d30d3bdd977)
 
+----------------
+<DL_VAEP>
+  
 - DL_Classification<br/>
 i) Deeplearning creates binary-classifications used in previous study and multi-classification proposed in this study<br/>
 ii) Oversampling is performed to solve the class imbalance. The oversampling technique proceeds by extracting data equally at the ratio of each label for each batch<br/>
