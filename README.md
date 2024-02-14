@@ -55,6 +55,7 @@ iv) Quantitative & Qualitative Indicators<br/>
 vi) In this study, torchfm/model/Upgrade_Dcn.py & torchfm/layer.py was used. There are many other models and embedding techniques, so please refer to them<br/>
 -https://github.com/kitayama1234/Pytorch-Entity-Embedding-DNN-Regressor/blob/master/model.py<br/>
 -https://github.com/rixwew/pytorch-fm/tree/master/torchfm<br/><br/>
+![image](https://github.com/GunHeeJoe/VAEP/assets/112679136/b498d9b2-c257-4747-b4d7-1d30d3bdd977)
 
 Conclusion
 ----------------
