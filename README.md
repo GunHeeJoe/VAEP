@@ -49,7 +49,8 @@ iii) Quantitative & Qualitative Indicators<br/>
 -Qualitative indicators will evaluate the play followed by Valverde's actions, Vasquez's cross, and finally Benzema's shot, starting with Tony Cross's pass at 18:36 of the link below.<br/>
 link : https://www.youtube.com/watch?v=EhodpjwTtag&t=1986s<br/><br/>
 
-vvi) Analysis : 골과 어시스트를 담당한 L. Vazquez와 K. Benzema선수의 이벤트(cross, shot)가 높은 VAEP 값을 보였습니다.
+#### Analysis 
+- 골과 어시스트를 담당한 L. Vazquez와 K. Benzema선수의 이벤트(cross, shot)가 높은 VAEP 값을 보였습니다.
 - 정말 그럴까요? 실제 영상을 보면, 이 골에 큰 기여를 한 선수는 F. Valverde입니다.
 - 이는 ML(Catboost) 기반 알고리즘을 사용하여 VAEP를 추출할 때, 골의 마지막 이벤트인 슛팅에만 높은 가치를 부여하는 경향이 있음을 나타냅니다.
 - 골을 기준으로 라벨링을 진행하다 보니, 골로 이어지는 이벤트의 기여도를 평가할 때 이러한 현상이 발생하는 것으로 보입니다.
@@ -67,7 +68,8 @@ vi) In this study, torchfm/model/Upgrade_Dcn.py & torchfm/layer.py was used. The
 -https://github.com/kitayama1234/Pytorch-Entity-Embedding-DNN-Regressor/blob/master/model.py<br/>
 -https://github.com/rixwew/pytorch-fm/tree/master/torchfm<br/><br/>
 
-vvi) Analysis : 골과 어시스트를 담당한 L. Vazquez와 K. Benzema가 아니라 F. Valverde의 이벤트(돌파, 드리블, 패스)가 높은 VAEP 값을 보였습니다.
+#### Analysis 
+- 골과 어시스트를 담당한 L. Vazquez와 K. Benzema가 아니라 F. Valverde의 이벤트(돌파, 드리블, 패스)가 높은 VAEP 값을 보였습니다.
 - ML이 골의 마지막 이벤트인 슛팅에 높은 가치를 부여한다면, DL은 슛팅보다는 공격 전개 과정에서 발생하는 중간 이벤트에 더 높은 가치를 부여하는 경향이 있습니다.
 - 실제 경기를 관찰해 보면, 부족한 선수는 없었습니다. F. Valverde, L. Vazquez, K. Benzema 모두 훌륭한 활약을 했습니다.
 - 하지만 이벤트 데이터를 기반으로 정밀한 분석을 수행한다면, DL이 제공하는 정성적 가치(VAEP)가 더 높다고 생각하지 않으십니까?
