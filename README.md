@@ -23,21 +23,22 @@ Function
 <notebook>
 - Due to GitHub's file size limits, we are unable to load the data directly on the repository. Therefore, I will follow the steps outlined in the notebook to obtain the data.
   
-1. 1-load-and-convert-data.ipynb : StatsBomb data loading<br/>
+1. load-and-convert-data.ipynb : StatsBomb data loading<br/>
 i) In this study, LaLiga data will be used<br/>
 ii) game_id = 3,773,689 has data of score_label=1, concede_label=1. This is incorrect data and will remove the game data<br/><br/>
 
-2. 2-storing-features-and-labels.ipynb : Define SPADL, Feature, and Label for Train, Valid, and Test data<br/>
+2. storing-features-and-labels.ipynb : Define SPADL, Feature, and Label for Train, Valid, and Test data<br/>
 i) train : 2004/2005 ~ 2018/2019 season<br/>
 ii) valid : 2019/2020 season<br/>
 iii) test : 2020/2021 season<br/><br/>
 
-3. 3-data-preprocess.ipynb : soccer data preprocessing<br/>
+3. data-preprocess.ipynb : soccer data preprocessing<br/>
 i) Error data preproceing<br/>
 ii) Create additional features<br/>
 iii) Create labels for multi-classification<br/><br/>
 
-4. Modeling & Analysis & Evaluation<br/>
+<ML_VAEP & DL_VAEP>
+- Modeling & Analysis & Evaluation<br/>
 
 - ML_BinaryClassification : Machine learning to perform binary-classification<br/>
 i) Using the same dataset, CatBoost is used to create a scoring probability model and a concede probability model, respectively<br/>
