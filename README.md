@@ -1,6 +1,6 @@
 # VAEP(Valuing Actions by Estimating Probabilities)
 
-### Always welcome if you are curious about the progress of my research or my thesis<br/><br/>
+- 참고 github link : https://github.com/ML-KULeuven/socceraction
 
 Introduction
 ----------------
